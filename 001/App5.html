@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #allPage{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: auto;
+            width: 700px;
+            padding: 10px;
+            border: 1px solid #e7e5e5;
+        }
+        .redWord {
+            color: red;
+            background-color: #e9e6e6;
+        }
+        #exampleBox {
+            background-color: #e7e5e5;
+            height: 450px;
+            border-radius: 10px;
+        }
+
+        #exampleWord{
+            margin-left: 15px;
+            padding-top: 25px;
+            font-size: 25px;
+        }
+
+        #box{
+            margin-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: white;
+            border-left: 4px solid #01c51b;
+            width: 96%;
+            border-radius: 3px;
+        }
+
+        .blueLetter{
+            color: blue;
+        }
+
+        .brownLetter {
+            color: brown;
+        }
+
+        #title {
+            font-size: 25px;
+        }
+
+        #button{
+            color: white;
+            background-color: #01c51b; 
+            border: 1px solid gray;
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="allPage">
+        <p id="title">HTML Headings</p>
+        <p>HTML headings are defined with the <span class="redWord"><span><</span>h1></span> to <span class="redWord"><span><</span>h6></span> tags.</p>
+        <p><span class="redWord"><span><</span>h1></span> defines the most important heading. <span class="redWord"><span><</span>h6></span> defines the least important heading.</p>
+
+        <div id="exampleBox">
+            <p id="exampleWord">Example</p>
+            <div id="box">
+                <p> <span class="blueLetter"><</span><span class="brownLetter">h1</span><span class="blueLetter">></span>Heading 1<span class="blueLetter"><</span><span class="brownLetter">/h1</span><span class="blueLetter">></span></p>
+                <p> <span class="blueLetter"><</span><span class="brownLetter">h2</span><span class="blueLetter">></span>Heading 2<span class="blueLetter"><</span><span class="brownLetter">/h2</span><span class="blueLetter">></span></p>
+                <p> <span class="blueLetter"><</span><span class="brownLetter">h3</span><span class="blueLetter">></span>Heading 3<span class="blueLetter"><</span><span class="brownLetter">/h3</span><span class="blueLetter">></span></p>
+                <p> <span class="blueLetter"><</span><span class="brownLetter">h4</span><span class="blueLetter">></span>Heading 4<span class="blueLetter"><</span><span class="brownLetter">/h4</span><span class="blueLetter">></span></p>
+                <p> <span class="blueLetter"><</span><span class="brownLetter">h5</span><span class="blueLetter">></span>Heading 5<span class="blueLetter"><</span><span class="brownLetter">/h5</span><span class="blueLetter">></span></p>
+                <p> <span class="blueLetter"><</span><span class="brownLetter">h6</span><span class="blueLetter">></span>Heading 6<span class="blueLetter"><</span><span class="brownLetter">/h6</span><span class="blueLetter">></span></p>
+            </div>
+            <button type="button" id="button">Try it Yourself >></button>
+        </div>
+    </div>
+</body>
+</html>
