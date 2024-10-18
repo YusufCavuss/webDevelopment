@@ -1,0 +1,51 @@
+#allPage {
+    border: 2px solid black;
+    width: 1200px;
+    margin: auto;
+}
+
+.panel {
+    width: 570px;
+    height: 750px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block; 
+    vertical-align: top;
+    border: 2px dotted black;
+}
+
+#leftPanel {
+    margin-left: 20px;
+}
+
+.rightItems {
+    height: 240px;
+    width: 550px;
+    margin-top: 4px;
+    margin-left: 8px;
+    display: block;
+    border: 2px dashed black;
+}
+
+.footers {
+    width: 182px;
+    height: 240px;
+    display: inline-block;
+    margin-top: 4px;
+    border: 2px dashed black;
+    
+}
+
+#footer1 {
+    margin-left: 8px;
+}
+
+#footer2 {
+    margin: auto;
+    border-left: 0;
+    border-right: 0;
+}
+
+#footer3 {
+    margin: auto;
+}

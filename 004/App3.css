@@ -1,0 +1,72 @@
+.anaKutu {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    font-size: 0;
+    display: flex;
+    position: relative;
+}
+
+.solKutu {
+    font-size: 12px;
+    width: 189px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+
+.sagUst {
+    font-size: 10px;
+    width: 210px;
+    height: 49px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sagOrta {
+    font-size: 16px;
+    width: 210px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    text-align: center;
+}
+
+.sagAlt1 {
+    font-size: 16px;
+    width: 68px;
+    height: 49px;
+    display: inline-block;
+    position: absolute;
+    right: 140px;
+    bottom: 0;
+    text-align: center;
+}
+
+.sagAlt2 {
+    font-size: 16px;
+    width: 68px;
+    height: 49px;
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    bottom: 0;
+    text-align: center;
+}
+
+.sagAlt3 {
+    font-size: 16px;
+    width: 68px;
+    height: 49px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
