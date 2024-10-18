@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+</head>
+<body>
+
+    <form>
+        <h3 id="title">Kayıt Formu</h3>
+        <label for="adi" id="adi" class="subtitle">Adı:</label>
+        <input type="text" name="adi" id="adi" required>
+        <br>
+
+        <label for="soyadi" id="soyadi" class="subtitle">Soyadı:</label>
+        <input type="text" name="soyadi" id="soyadi" required>
+        <br>
+        
+        <label for="cinsiyet" id="cinsiyet" class="subtitle">Cinsiyet:</label>
+        <input type="radio" name="cinsiyet" id="erkek" checked> Erkek 
+        <input type="radio" name="cinsiyet" id="kadin"> Kadın
+        <br>
+
+        <label for="kullanici" id="kullanici" class="subtitle">Kullanıcı Adı:</label>
+        <input type="text" name="kullaniciAdi" id="kullaniciAdi" maxlength="15">
+
+        <label for="eposta" id="epostatitle" class="subtitle">E-Posta:</label>
+        <input type="email" name="eposta" id="eposta"> 
+        <br>
+
+        <label for="hobi">Hobiler:</label>
+        <input type="checkbox" name="kitap" id="kitap" checked> Kitap
+        <input type="checkbox" name="sinema" id="sinema"> Sinema
+        <input type="checkbox" name="tiyatro" id="tiyatro"> Tiyatro 
+        <br>
+        
+        <label for="">Doğum Yeri</label>
+        <select name="dogumyeri" id="dogumyeri">
+            <option value="06">Ankara</option>
+            <option value="34" selected>İstanbul</option>
+            <option value="35">İzmir</option>
+            <option value="16">Bursa</option>
+            <option value="10">Balıkesir</option>
+            <option value="12">Bingöl</option>
+        </select> <br> <br>
+
+        <button>Kaydet</button>
+    </form>
+    
+</body>
+</html>
