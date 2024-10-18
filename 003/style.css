@@ -1,0 +1,59 @@
+#allPage {
+    width: 800px; 
+    margin: auto;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#image { 
+    border: 1px solid #076b45;
+    margin-top: 30px;
+}
+
+.currentPage {
+    color: white; 
+    background-color: #06784d; 
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: normal ;
+}
+
+.otherPage {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: normal;
+}
+
+.navbarButton:link ,.navbarButton:visited{
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    padding: 10px 10px;
+    font-weight: normal;
+}
+
+.navbarButton:hover, .navbarButton:active {
+    color: white;
+    background-color: #089c64;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #089c64;
+    font-weight: bolder;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+.paragraph {
+    font-size: 14px;
+    line-height: 24px;
+}
