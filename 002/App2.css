@@ -1,0 +1,38 @@
+#allPage {
+    margin: auto;
+    align-items: center;
+    border: 2px solid black;
+    width: 180px;
+    height: 70px;
+    font-size: 30px;
+}
+
+#buttonBox {
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

@@ -1,0 +1,86 @@
+#allPage{
+    border: 1px solid black;
+    background-color: #ffffff;
+    width: 900px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}
+
+#externalcss{
+    font-size: 25px;
+}
+
+#grayBox {
+    background-color: #e0dfdf;
+    margin: auto;
+    border-radius: 7px;
+    width: 880px;
+}
+
+#exampleBox {
+    background-color: white;
+    border-left: 5px solid #08ac6c;
+    margin-left: 10px;
+    padding-top: 1px;
+    border-radius: 3px;
+    width: 860px;
+    height: 265px;
+    margin: auto;
+    line-height: 4px;
+}
+
+#exampleBox p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+
+#exampleText {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#tryButton {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #08ac6c;
+    border: 0;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+}
+
+.textWithMargin {
+    margin-left: 10px;
+}
+
+.redBox {
+    background-color: #f0f0f0;
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.brown {
+    color: brown;
+}
+
+.black {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: double;
+}
+
+#tryButton:hover {
+    background-color: #089c64;
+}
